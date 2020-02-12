@@ -1,0 +1,18 @@
+1. Take the car evaluation dataset from UCI repository
+https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+
+2. Convert all fields into integer following the encoding scheme:
+vhigh -> 4, high -> 3, med -> 2, low -> 1
+2 -> 2, 3 -> 3, 4 -> 4, 5more -> 5,more -> 5
+small -> 1, med -> 2, big -> 3
+unacc->1,acc->2,good->3,vgood->4
+
+3. Create training and test data
+
+4. Train SVM model with linear kernel
+
+6. Predict and plot the confusion matrix
+
+7. Notedown your observations
+
+8. Try the other SVM Kernels
