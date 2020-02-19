@@ -1,0 +1,14 @@
+1. Read the toyota data set and count the number of missing values in each field
+
+2. Replace the missing values appropriately
+
+3. Check for errors in data and correct them appropriately
+
+4. Use K Nearest neighbour classifier for identifying the fueltype of the car
+
+5. Find the k-value for which the KNN classifier gives the highest performance
+
+6. print the confusion matrix and the classification report
+
+Reference
+https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
