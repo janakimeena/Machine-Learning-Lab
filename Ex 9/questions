@@ -1,0 +1,31 @@
+Reference 
+https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/
+https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
+
+
+1. Download 2015 data from 
+https://www.kaggle.com/cdc/behavioral-risk-factor-surveillance-system
+
+2. Find the dimension of the data
+
+3. Choose randomly 100000 records only for classification
+
+3. Include only numerical data for classification
+
+4. Fill all the missing values with mean of their columns
+
+5. _RFHLTH column is the target column
+
+6. create a dataset with records having _RFHLTH values as 1 and 2
+
+7. Check the following columns and remove if there is null value in more than 40% of records and if there is a skewness in the value. That if same values is present in more than 65% of records
+
+8. split into train and test datasets
+
+9. Create a random forest classifier with 100 trees and number of features = square root of number of features
+
+10. Get the probability of predcition for class being 2
+
+11. Find the train and test ROC AUC score
+
+12. 	Find the Baseline ROC and state your observation
