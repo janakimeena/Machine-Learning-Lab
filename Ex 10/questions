@@ -1,0 +1,7 @@
+1. Read the heart disease data
+2. Find the correlation values between all the attributes
+3. Plot a heat map
+4. Identify the closely related attributes to the target
+5. Standardize the train and the test data
+6. Use single layer perceptron and multilayer perceptron of sklearn to classify the heart risk
+7. Find the confusion matrix and the metrics to evaluate the classifiers
