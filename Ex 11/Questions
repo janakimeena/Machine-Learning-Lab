@@ -1,0 +1,7 @@
+Load the iris dataset
+Include the attributes except the class
+Using elbow method, determine the optimal number of clusters for the data
+Apply Clustering
+Plot a graph
+
+
